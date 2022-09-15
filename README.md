@@ -1,3 +1,5 @@
-# goit-markup-hw-01
-## 📚GoIt Домашка #01
-[👽Лінк](https://usithestorm.github.io/goit-markup-hw-01/)
+# goit-markup-hw-02
+
+## 📚GoIt Домашка #02
+
+[👽Лінк](https://usithestorm.github.io/goit-markup-hw-02/)
