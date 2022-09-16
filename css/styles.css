@@ -11,6 +11,12 @@
 }
 
 body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    font-style: normal;
+    line-height: 1.14;
     background-color: var(--prim-bg-color);
     color: var(--prim-text-color);
 }
@@ -36,6 +42,10 @@ body {
 
 /* лого */
 .logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
     color: #000;
 }
 .logo-blue {
@@ -47,6 +57,9 @@ body {
 }
 
 .navbar-link {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
     color: var(--prim-text-color);
 }
 .navbar-link:hover,
@@ -62,27 +75,42 @@ body {
 
 /* Герой */
 .hero {
+    letter-spacing: 0.06em;
     background-color: var(--hero-bg-color);
 }
 .hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    text-transform: uppercase;
     color: var(--hero-text-color);
 }
 .hero-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
     background-color: var(--accent-color);
     color: var(--hero-text-color);
 }
 
 /* Преимущества */
 .adv-title {
-    /* color: var(--prim-text-color); */
+    font-weight: 700;
+    text-transform: uppercase;
 }
 .adv-descript {
+    line-height: 24px;
     color: var(--sec-text-color);
 }
 
 /* Галерея */
-.gallery-title {
-    /* color */
+.gallery-title,
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
 }
 
 /* Команда */
@@ -90,12 +118,16 @@ body {
     background-color: var(--sec-bg-color);
 }
 .memb {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
     background-color: var(--prim-bg-color);
 }
 .memb-name {
-    /*  */
+    font-weight: 500;
 }
 .memb-position {
+    font-weight: 500;
     color: var(--sec-text-color);
 }
 
@@ -106,6 +138,10 @@ body {
 .footer-logo {
     color: var(--footer-main-text-color);
 }
+.adress {
+    font-style: normal;
+    line-height: 1.71;
+}
 .footer-address {
     color: var(--footer-main-text-color);
 }
@@ -115,18 +151,27 @@ body {
 
 /* Проекты */
 .projects-btn {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
     background-color: var(--sec-bg-color);
     color: var(--prim-text-color);
 }
 .projects-btn:hover,
-.projects-btn:focus,
 .projects-btn:active {
     background-color: var(--accent-color);
     color: var(--hero-text-color);
 }
 .proj-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
     color: var(--prim-text-color);
 }
 .proj-type {
+    font-size: 16px;
+    line-height: 1.87;
     color: var(--sec-text-color);
 }
