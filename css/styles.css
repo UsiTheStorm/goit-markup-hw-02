@@ -1,0 +1,132 @@
+:root {
+    --prim-bg-color: #fff;
+    --sec-bg-color: #f5f4fa;
+    --hero-bg-color: #2f303a;
+    --prim-text-color: #212121;
+    --sec-text-color: #757575;
+    --accent-color: #2196f3;
+    --hero-text-color: #fff;
+    --footer-sec-text-color: rgba(255, 255, 255, 0.6);
+    --footer-main-text-color: #fff;
+}
+
+body {
+    background-color: var(--prim-bg-color);
+    color: var(--prim-text-color);
+}
+
+.hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+.semantic-list {
+    list-style: none;
+}
+.link-undecor {
+    text-decoration: none;
+}
+
+/* лого */
+.logo {
+    color: #000;
+}
+.logo-blue {
+    color: var(--accent-color);
+}
+
+/* Навбар */
+.navbar {
+}
+
+.navbar-link {
+    color: var(--prim-text-color);
+}
+.navbar-link:hover,
+.navbar-link:focus,
+.navbar-contact:hover,
+.navbar-contact:focus,
+.active {
+    color: var(--accent-color);
+}
+.navbar-contact {
+    color: var(--sec-text-color);
+}
+
+/* Герой */
+.hero {
+    background-color: var(--hero-bg-color);
+}
+.hero-title {
+    color: var(--hero-text-color);
+}
+.hero-btn {
+    background-color: var(--accent-color);
+    color: var(--hero-text-color);
+}
+
+/* Преимущества */
+.adv-title {
+    /* color: var(--prim-text-color); */
+}
+.adv-descript {
+    color: var(--sec-text-color);
+}
+
+/* Галерея */
+.gallery-title {
+    /* color */
+}
+
+/* Команда */
+.team {
+    background-color: var(--sec-bg-color);
+}
+.memb {
+    background-color: var(--prim-bg-color);
+}
+.memb-name {
+    /*  */
+}
+.memb-position {
+    color: var(--sec-text-color);
+}
+
+/* Футер */
+.footer {
+    background-color: var(--hero-bg-color);
+}
+.footer-logo {
+    color: var(--footer-main-text-color);
+}
+.footer-address {
+    color: var(--footer-main-text-color);
+}
+.footer-contact {
+    color: var(--footer-sec-text-color);
+}
+
+/* Проекты */
+.projects-btn {
+    background-color: var(--sec-bg-color);
+    color: var(--prim-text-color);
+}
+.projects-btn:hover,
+.projects-btn:focus,
+.projects-btn:active {
+    background-color: var(--accent-color);
+    color: var(--hero-text-color);
+}
+.proj-name {
+    color: var(--prim-text-color);
+}
+.proj-type {
+    color: var(--sec-text-color);
+}
