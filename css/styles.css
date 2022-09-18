@@ -160,6 +160,7 @@ body {
     color: var(--prim-text-color);
 }
 .projects-btn:hover,
+.projects-btn:focus,
 .projects-btn:active {
     background-color: var(--accent-color);
     color: var(--hero-text-color);
